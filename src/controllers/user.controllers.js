@@ -27,7 +27,7 @@ ctrlUser.postUser = async (req, res) => {
 
 ctrlUser.putUser = async (req, res) => {
     return res.json({
-        msg: ''
+        msg: 'Put Usuario'
     })
 };
 

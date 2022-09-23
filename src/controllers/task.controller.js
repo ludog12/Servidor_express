@@ -8,7 +8,7 @@ ctrlTask.gettask = async (req, res) => {
     return res.json(users)
 };
 
-ctrlUser.postUser = async (req, res) => {
+ctrlUser.postTask = async (req, res) => {
     const { title, type, date } = req.body;
 
     const newTask= new Task({
